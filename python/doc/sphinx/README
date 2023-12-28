@@ -1,0 +1,61 @@
+
+# reStructuredText (RST)
+- reStructuredText is a plain text markup language that's part of the Docutils project in the Python ecosystem.
+  It's commonly used for technical documentation, especially for Python libraries and applications.
+- RST files are used with Sphinx, a ducumentation generator that can output various formats including HTML, PDF, and ePub.
+- reStructuredText is chosen for its simplicity and readability. 
+  It's designed to be easy to write and edit without specialized tools.
+
+# Starting a Documentation Project with reStructuredText
+1. Install Sphinx
+- Ensure Python is installed on your system.
+- Install Sphinx using pip: `pip install sphinx`
+
+2. Set up Documentation Project
+- Run `sphinx-quickstart` in your project directory.
+  This tool sets up a basic documentation structure.
+- Answer the prompts to configure your project.
+
+3. Write Documentation
+- Create '.rst' files in the 'source' directory.
+- Write your documentation using reStructuredText syntax.
+  For example, use 'code-block:: python' to include a Python code block.
+
+4. Configure Sphinx
+- Edit 'conf.py' in the 'source' directory to configure Sphinx settings, like the theme or extensions.
+- If you have docstrings in your Python code, you can use the autodoc extension to include these in your documentation.
+
+5. Build the Documentation
+- Run `make html` to build HTML documentation. (windows: `make.bat html`)
+- The output will be in the 'build directory.
+
+6. Review and Publish
+- Review the generated HTML files.
+- For publishing, you can host the 'build' directory contents on a web server or use platforms like ReadTheDocs.
+
+
+# Apply most popular theme
+1. Install the Theme
+- First, you need to install the theme. It can be installed via 'pip', Python's package manager.
+  Open your command line and run:
+  `pip install sphinx_rtd_theme`
+
+2. Configure Sphinx to Use the Theme
+- After installing the theme, you need to configure your Sphinx project to use it.
+  This is done by editing the 'conf.py' file in your Sphinx project directory.
+  in 'conf.py', find the line that sets the 'html_theme' variable and change it to 'sphinx_rtd_theme'.
+  It will look something like this.
+  `html_theme = 'sphinx_rtd_theme'`
+
+3. Optional Customizations
+- The Read the docs theme supports various customizations, such as changing the color scheme or layout.
+  These customizations can be done by setting theme options in your 'conf.py' file.
+  doc link: 'https://sphinx-rtd-theme.readthedocs.io/en/stable/'
+
+4. Rebuild Your Documentation
+- After making these changes, navigate back to your command line and rebuild your documentation to see the changes.
+  If you are using the `make` command, it would be
+  `make html`
+
+5. Check the Results
+- Once the build is complete, open the generated HTML files in your 'build' directory to see your documentation with the new theme.
