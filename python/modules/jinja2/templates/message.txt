@@ -1,0 +1,22 @@
+{# templates/message.txt #}
+
+Hello I'm {{ name }}!
+
+I'm happy to inform you that you did very well this year's {{ test }} performance test.
+You reached {{ score }} out of {{ max_score }} points.
+
+{% if score == 100 %}
+You did perfect job!
+{% elif score > 95 %}
+You're so good boy!!
+{% else %}
+You should've work hard!!
+{% endif %}
+
+{% for student in students|sort(attribute="score", reverse=true) %}
+ {{ student.name }} / {{ student.score }}
+{% endfor %}
+
+
+See you Tomorrow!
+Jinja Test
