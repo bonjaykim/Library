@@ -1,5 +1,5 @@
 
-.. _ref-english-greetings:
+.. _ref-english-business-greetings:
 
 **********
 Greetings
