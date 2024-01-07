@@ -14,6 +14,9 @@ Docker Command
 .. _link: https://docs.docker.com/desktop/
 
 .. image:: images/docker.jpeg
+    :scale: 50 %
+    :align: center
+    :alt: How does docker work?
 
 Basic Management
 ================
