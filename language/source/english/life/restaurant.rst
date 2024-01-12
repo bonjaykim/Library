@@ -75,3 +75,25 @@ Thank you so much. I appreciate your help.
 
     B: Thank you so much. I appreciate your help.
 
+1.2 Order some drink
+====================
+
+.. note::
+
+    A: Which one would you recommend?
+
+    B: The dark chocolate.
+
+    A: I will get that then. If i could get a small one please?
+
+    B: We do only like this..
+    (저희는 이 사이즈 밖에 없거든요)
+
+    A: Is that to drink in?
+    
+    % 매장에서 먹고 갈 때 eat in도 쓰지만 음료만 말한다면 drink in 도 사용한다.
+
+    B: Drink in, yeah.
+
+
+
